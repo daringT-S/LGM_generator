@@ -25,6 +25,7 @@ def main(cfg: DistillCfg):
 
     wandb.init(
         id=cfg.run_name,
+        name=cfg.run_name,
         job_type="distillation",
         project="Linear-Gradient-Matching",
         config=cfg.as_dict(),
@@ -33,7 +34,7 @@ def main(cfg: DistillCfg):
     )
     config = wandb.config
     cfg: DistillCfg = cfg.from_dict(config.as_dict(), skip_unsettable=True)
-    cfg.run_name = wandb.run.name
+    cfg.run_name = wandb.run.name or cfg.run_name or wandb.run.id
 
     log_dir = os.path.join(
         "logged_files", cfg.job_tag, cfg.dataset, cfg.model, cfg.run_name

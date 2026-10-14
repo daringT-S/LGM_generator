@@ -13,11 +13,12 @@ class DistillCfg(Tap):
     job_tag: str = "distillation"
 
     ipc: int = 1
-    lr = 2e-3
+    lr: float = 2e-3
     iterations: int = 5000
     augs_per_batch: int = 10
 
     distill_mode: Literal["pixel", "pyramid"] = "pyramid"
+    distill_opt: Literal["sgd", "adam"] = "adam"
     aug_mode: Literal["standard", "none"] = "standard"
     decorrelate_color: bool = True
 
