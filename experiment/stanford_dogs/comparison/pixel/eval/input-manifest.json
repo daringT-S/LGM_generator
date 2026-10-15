@@ -1,0 +1,5 @@
+{
+  "/gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki/pixel/distill/distillation/stanforddogs/dinov2_vitb/stanforddogs_pixel_adam_it5000_ipc1_s3407/data.pth": "f893c1fdfe0214e6cbc9cb0c51390582aafb54861cd7678017143024e49f8359",
+  "/gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki/pixel/eval/input/stanforddogs/dinov2_vitb/pixel_final/data.pth": "f893c1fdfe0214e6cbc9cb0c51390582aafb54861cd7678017143024e49f8359",
+  "/gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki/pixel/distill/checkpoints/step_05000_final.pth": "af25caec3745ef828357a08d3b171c8ee54d505df4d27d98a1ae61f9e1342ce5"
+}

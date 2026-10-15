@@ -1,0 +1,160 @@
+{
+  "accuracy_unit": "fraction [0,1]",
+  "std_ddof": 0,
+  "runs": [
+    {
+      "dataset": "flowers102",
+      "method": "pixel",
+      "distillation_seed": 3407,
+      "evaluation_status": "partial (final save failed)",
+      "report": "flower102/pixel_seed3407/evaluation-recovered.json",
+      "ddof": 0,
+      "top1_values": [
+        0.9730037450790405,
+        0.9676370024681091,
+        0.9736542701721191
+      ],
+      "top1_mean": 0.9714316725730896,
+      "top1_std": 0.002696347730839576,
+      "top5_values": [
+        0.9995121359825134,
+        0.9985363483428955,
+        null
+      ],
+      "top5_mean": null,
+      "top5_std": null
+    },
+    {
+      "dataset": "flowers102",
+      "method": "generator_pixel",
+      "distillation_seed": 3407,
+      "evaluation_status": "success",
+      "report": "flower102/generator_seed3407/evaluation/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.9957716464996338,
+        0.9954464435577393,
+        0.9956090450286865
+      ],
+      "top1_mean": 0.9956090450286865,
+      "top1_std": 0.00013276354508226135,
+      "top5_values": [
+        0.9990242123603821,
+        0.9982110857963562,
+        0.9986989498138428
+      ],
+      "top5_mean": 0.998644749323527,
+      "top5_std": 0.00033416260726776335
+    },
+    {
+      "dataset": "flowers102",
+      "method": "generator_pixel",
+      "distillation_seed": 42,
+      "evaluation_status": "success",
+      "report": "flower102/generator_additional_seeds/seed_42/eval/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.9954464435577393,
+        0.9954464435577393,
+        0.99398273229599
+      ],
+      "top1_mean": 0.9949585398038229,
+      "top1_std": 0.0006900001059213498,
+      "top5_values": [
+        0.9982110857963562,
+        0.9980484843254089,
+        0.9983737468719482
+      ],
+      "top5_mean": 0.9982111056645712,
+      "top5_std": 0.00013278787931978361
+    },
+    {
+      "dataset": "flowers102",
+      "method": "generator_pixel",
+      "distillation_seed": 123,
+      "evaluation_status": "success",
+      "report": "flower102/generator_additional_seeds/seed_123/eval/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.9936575293540955,
+        0.9949585199356079,
+        0.9947959184646606
+      ],
+      "top1_mean": 0.9944706559181213,
+      "top1_std": 0.000578786613777451,
+      "top5_values": [
+        0.9993494749069214,
+        0.9995121359825134,
+        0.9993494749069214
+      ],
+      "top5_mean": 0.999403695265452,
+      "top5_std": 7.667916639081988e-05
+    },
+    {
+      "dataset": "flowers102",
+      "method": "generator_pixel",
+      "distillation_seed": 2026,
+      "evaluation_status": "success",
+      "report": "flower102/generator_additional_seeds/seed_2026/eval/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.9925190806388855,
+        0.9951211810112,
+        0.9933322668075562
+      ],
+      "top1_mean": 0.9936575094858805,
+      "top1_std": 0.001086912657255239,
+      "top5_values": [
+        0.9993494749069214,
+        0.9990242123603821,
+        0.9993494749069214
+      ],
+      "top5_mean": 0.999241054058075,
+      "top5_std": 0.0001533302348826325
+    },
+    {
+      "dataset": "stanforddogs",
+      "method": "pixel",
+      "distillation_seed": 3407,
+      "evaluation_status": "success",
+      "report": "stanford_dogs/comparison/pixel/eval/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.5125874280929565,
+        0.5116550326347351,
+        0.5125874280929565
+      ],
+      "top1_mean": 0.5122766296068827,
+      "top1_std": 0.00043953543417061023,
+      "top5_values": [
+        0.8804195523262024,
+        0.8914918303489685,
+        0.8862470984458923
+      ],
+      "top5_mean": 0.8860528270403544,
+      "top5_std": 0.004522325448086388
+    },
+    {
+      "dataset": "stanforddogs",
+      "method": "generator_pixel",
+      "distillation_seed": 3407,
+      "evaluation_status": "success",
+      "report": "stanford_dogs/comparison/generator/eval/eval_status.json",
+      "ddof": 0,
+      "top1_values": [
+        0.774125874042511,
+        0.7680652737617493,
+        0.7714452147483826
+      ],
+      "top1_mean": 0.771212120850881,
+      "top1_std": 0.002479713493474818,
+      "top5_values": [
+        0.9645687937736511,
+        0.9644522070884705,
+        0.9636363387107849
+      ],
+      "top5_mean": 0.9642191131909689,
+      "top5_std": 0.00041482340407743133
+    }
+  ]
+}

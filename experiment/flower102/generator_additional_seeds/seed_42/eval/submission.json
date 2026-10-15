@@ -1,0 +1,15 @@
+{
+  "phase": "eval",
+  "seed": 42,
+  "time_utc": "2026-10-14T16:11:19.988217+00:00",
+  "command": [
+    "qsub",
+    "-g",
+    "tga-lab_otm",
+    "eval_job.sh"
+  ],
+  "returncode": 0,
+  "stdout": "Your job 9011850 (\"lgm_gen_s42_eval\") has been submitted\n",
+  "stderr": "",
+  "job_id": "9011850"
+}

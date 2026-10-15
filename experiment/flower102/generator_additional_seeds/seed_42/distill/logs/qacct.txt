@@ -1,0 +1,73 @@
+==============================================================
+qname                    all.q               
+hostname                 r2n1                
+group                    tga-lab_otm
+owner                    us07824             
+project                  NONE                
+department               defaultdepartment   
+jobname                  lgm_gen_s42_distill 
+jobnumber                9011716             
+taskid                   undefined
+pe_taskid                NONE                
+account                  7824 2295 13760493 9011716 0 0 0 0 1 0 0 0 0 0 0 0 0 7200 0 0 0
+priority                 0                   
+cwd                      /gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_42/distill
+submit_host              login1              
+submit_cmd               /apps/t4/rhel9/uge/latest/bin/lx-amd64/qsub.bin -A tga-lab_otm distill_job.sh
+qsub_time                10/15/2026 00:41:31.358
+start_time               10/15/2026 00:42:13.574
+end_time                 10/15/2026 01:09:44.450
+exec_host_list           r2n1:8              
+granted_pe               mpt                 
+slots                    8                   
+hard_resources           gg_mig=2(g1_m[12]^g2_m[12]^g3_m[12]^g4_m[12]),h_rt=7200,m_mem_free=12G,njobs=1
+soft_resources           NONE                
+hard_queues              all.q               
+soft_queues              NONE                
+granted_req.             NONE                
+failed                   0    
+deleted_by               NONE
+exit_status              0                   
+ru_wallclock             1650.876     
+ru_utime                 3118.275     
+ru_stime                 544.430      
+ru_maxrss                3009540             
+ru_ixrss                 0                   
+ru_ismrss                0                   
+ru_idrss                 0                   
+ru_isrss                 0                   
+ru_minflt                106207589           
+ru_majflt                38399               
+ru_nswap                 0                   
+ru_inblock               2966880             
+ru_oublock               1902808             
+ru_msgsnd                0                   
+ru_msgrcv                0                   
+ru_nsignals              0                   
+ru_nvcsw                 448026              
+ru_nivcsw                10008               
+wallclock                1663.883     
+cpu                      3663.730     
+mem                      89007.185         
+io                       42.778            
+iow                      0.000             
+ioops                    2358015             
+maxvmem                  78.267G
+maxrss                   4.331G
+maxpss                   0.000
+arid                     undefined
+arname                   NONE
+jc_name                  NONE
+bound_cores              NONE
+resource_map             NONE
+devices                  NONE
+gpus                     NONE
+gpu_usage                NONE
+failcnt                  0                   
+memsw.failcnt            0                   
+max_usage_in_bytes       4.481G
+memsw.max_usage_in_bytes 4.481G
+max_cgroups_memory       0.000
+hold_jid                 NONE                
+orig_exec_time           -/-
+exec_time                -/-

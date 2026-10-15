@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "updates": 5001,
+  "loss_rows": 5001,
+  "images_shape": [
+    102,
+    3,
+    256,
+    256
+  ],
+  "png_count": 102,
+  "snapshot_count": 11,
+  "generator_updated": true,
+  "fixed_noise_unchanged": true,
+  "cpu_restore": true,
+  "cpu_regeneration_max_abs_difference": 0.007140815258026123,
+  "live_gpu_export_equality": true,
+  "data_sha256": "1eef2ef52c877f97ee62b27c83dfe8b1d769456e9e7d5e7983cabf9949b2bfe6",
+  "previous_pixel_artifacts_unchanged": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "actual_factory_and_loader": true,
+  "metadata": "synthetic fixture, not real dataset",
+  "canonical_cli_name": "stanforddogs",
+  "num_classes": 120,
+  "class_names_count": 120,
+  "label_conversion": "1..120 to 0..119",
+  "train_shape": [
+    3,
+    256,
+    256
+  ],
+  "test_shape": [
+    3,
+    224,
+    224
+  ],
+  "normalization": "ImageNet mean/std",
+  "bbox_crop": false,
+  "cuda_used": false,
+  "real_dataset_validation": "未実施",
+  "warning": "pkg_resources deprecated (existing environment)"
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "qsub",
+    "-g",
+    "tga-lab_otm",
+    "gpu_job.sh"
+  ],
+  "time_utc": "2026-10-14T14:03:54.210122+00:00",
+  "authorization": "User explicitly authorized one Generator 5000-iteration distillation job; no evaluation."
+}

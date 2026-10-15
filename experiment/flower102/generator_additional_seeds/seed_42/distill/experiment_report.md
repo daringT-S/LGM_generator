@@ -1,0 +1,80 @@
+# Generator seed 42: distill
+
+状態: success
+
+```json
+{
+  "status": "success",
+  "job_id": "9011716",
+  "completed_updates": 5001,
+  "gpu": "NVIDIA H100",
+  "torch": "2.8.0+cu126",
+  "cuda": "12.6",
+  "distillation_seed": 42,
+  "config": {
+    "run_name": "flowers102_generator_pixel_adam_it5000_ipc1_seed42",
+    "model": "dinov2_vitb",
+    "train_crop_mode": "random",
+    "dataset": "flowers102",
+    "checkpoint_it": 100,
+    "iterations": 5000,
+    "init_mode": "noise",
+    "image_log_it": 500,
+    "aug_mode": "standard",
+    "generator_latent_dim": 128,
+    "decorrelate_color": true,
+    "real_res": 256,
+    "ipc": 1,
+    "data_root": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv/data",
+    "skip_if_exists": false,
+    "num_workers": 2,
+    "job_tag": "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_42/distill/distillation",
+    "augs_per_batch": 1,
+    "pyramid_extent_it": 200,
+    "distill_opt": "adam",
+    "crop_res": 224,
+    "device_count": 1,
+    "distill_mode": "generator_pixel",
+    "pyramid_start_res": 1,
+    "lr": 0.002,
+    "syn_res": 256
+  },
+  "generator_init_cpu_seed": 42,
+  "fixed_noise_init_cuda_seed": 42,
+  "cpu_rng_before_generator_sha256": "59294f27b0e77a92354f1b2f751dbc744656e015429c30ed67e23dfc0e62bbc0",
+  "cuda_rng_before_noise_sha256": "aefdce03def94ffed42159e55677ec20e91200e1981f25b1f271b6fd99c3c263",
+  "initial_noise_sha256": "e58bf006e3b81e51198a93ec5ee2bdae48a9affab200cedf22a7ac04eacab819",
+  "initial_generator_sha256": "863e9d91e64a5aa24f53e3a0101c7ad5f9aef06d53aa9313d2a33408c89b17b4",
+  "dataset_class": "GeneratorDataset",
+  "generator_parameters": 1149891,
+  "last_step": 5000,
+  "last_loss": 0.5437179207801819,
+  "elapsed_seconds": 1499.415457203053,
+  "first_loss": 0.9999547600746155,
+  "peak_allocated_bytes": 16806301184,
+  "fixed_noise_unchanged": true,
+  "final_noise_sha256": "e58bf006e3b81e51198a93ec5ee2bdae48a9affab200cedf22a7ac04eacab819",
+  "final_generator_sha256": "d1ff129a5278641e43c60361a63b831819271329e28f11e397dc5b077a7d6df2",
+  "generator_parameters_updated": true,
+  "adam_steps": 5001,
+  "final_images_match_generator": true,
+  "experiment_seconds": 1499.866647590883,
+  "checkpoint_restored_on_cpu": true,
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_42/distill/distillation/flowers102/dinov2_vitb/flowers102_generator_pixel_adam_it5000_ipc1_seed42/data.pth",
+  "data_sha256": "ba1ed540029844b879f7b7c6699c74a2c64c8588c900f076d0fef2025a1069bb",
+  "shape": [
+    102,
+    3,
+    256,
+    256
+  ],
+  "png_count": 102,
+  "total_seconds": 1625.4530407669954,
+  "peak_reserved_bytes": 17301504000
+}
+```
+
+実験設定: `experiment/plan.json`。既存の実験を上書きしない。
+
+![Loss](loss_curve.png)
+![合成画像一覧](synthetic_grid.png)

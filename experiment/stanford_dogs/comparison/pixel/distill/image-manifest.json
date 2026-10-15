@@ -1,0 +1,602 @@
+[
+  {
+    "label": 0,
+    "class_name": "Chihuaha",
+    "file": "images/class_000.png"
+  },
+  {
+    "label": 1,
+    "class_name": "Japanese Spaniel",
+    "file": "images/class_001.png"
+  },
+  {
+    "label": 2,
+    "class_name": "Maltese Dog",
+    "file": "images/class_002.png"
+  },
+  {
+    "label": 3,
+    "class_name": "Pekinese",
+    "file": "images/class_003.png"
+  },
+  {
+    "label": 4,
+    "class_name": "Shih-Tzu",
+    "file": "images/class_004.png"
+  },
+  {
+    "label": 5,
+    "class_name": "Blenheim Spaniel",
+    "file": "images/class_005.png"
+  },
+  {
+    "label": 6,
+    "class_name": "Papillon",
+    "file": "images/class_006.png"
+  },
+  {
+    "label": 7,
+    "class_name": "Toy Terrier",
+    "file": "images/class_007.png"
+  },
+  {
+    "label": 8,
+    "class_name": "Rhodesian Ridgeback",
+    "file": "images/class_008.png"
+  },
+  {
+    "label": 9,
+    "class_name": "Afghan Hound",
+    "file": "images/class_009.png"
+  },
+  {
+    "label": 10,
+    "class_name": "Basset Hound",
+    "file": "images/class_010.png"
+  },
+  {
+    "label": 11,
+    "class_name": "Beagle",
+    "file": "images/class_011.png"
+  },
+  {
+    "label": 12,
+    "class_name": "Bloodhound",
+    "file": "images/class_012.png"
+  },
+  {
+    "label": 13,
+    "class_name": "Bluetick",
+    "file": "images/class_013.png"
+  },
+  {
+    "label": 14,
+    "class_name": "Black-and-tan Coonhound",
+    "file": "images/class_014.png"
+  },
+  {
+    "label": 15,
+    "class_name": "Walker Hound",
+    "file": "images/class_015.png"
+  },
+  {
+    "label": 16,
+    "class_name": "English Foxhound",
+    "file": "images/class_016.png"
+  },
+  {
+    "label": 17,
+    "class_name": "Redbone",
+    "file": "images/class_017.png"
+  },
+  {
+    "label": 18,
+    "class_name": "Borzoi",
+    "file": "images/class_018.png"
+  },
+  {
+    "label": 19,
+    "class_name": "Irish Wolfhound",
+    "file": "images/class_019.png"
+  },
+  {
+    "label": 20,
+    "class_name": "Italian Greyhound",
+    "file": "images/class_020.png"
+  },
+  {
+    "label": 21,
+    "class_name": "Whippet",
+    "file": "images/class_021.png"
+  },
+  {
+    "label": 22,
+    "class_name": "Ibizian Hound",
+    "file": "images/class_022.png"
+  },
+  {
+    "label": 23,
+    "class_name": "Norwegian Elkhound",
+    "file": "images/class_023.png"
+  },
+  {
+    "label": 24,
+    "class_name": "Otterhound",
+    "file": "images/class_024.png"
+  },
+  {
+    "label": 25,
+    "class_name": "Saluki",
+    "file": "images/class_025.png"
+  },
+  {
+    "label": 26,
+    "class_name": "Scottish Deerhound",
+    "file": "images/class_026.png"
+  },
+  {
+    "label": 27,
+    "class_name": "Weimaraner",
+    "file": "images/class_027.png"
+  },
+  {
+    "label": 28,
+    "class_name": "Staffordshire Bullterrier",
+    "file": "images/class_028.png"
+  },
+  {
+    "label": 29,
+    "class_name": "American Staffordshire Terrier",
+    "file": "images/class_029.png"
+  },
+  {
+    "label": 30,
+    "class_name": "Bedlington Terrier",
+    "file": "images/class_030.png"
+  },
+  {
+    "label": 31,
+    "class_name": "Border Terrier",
+    "file": "images/class_031.png"
+  },
+  {
+    "label": 32,
+    "class_name": "Kerry Blue Terrier",
+    "file": "images/class_032.png"
+  },
+  {
+    "label": 33,
+    "class_name": "Irish Terrier",
+    "file": "images/class_033.png"
+  },
+  {
+    "label": 34,
+    "class_name": "Norfolk Terrier",
+    "file": "images/class_034.png"
+  },
+  {
+    "label": 35,
+    "class_name": "Norwich Terrier",
+    "file": "images/class_035.png"
+  },
+  {
+    "label": 36,
+    "class_name": "Yorkshire Terrier",
+    "file": "images/class_036.png"
+  },
+  {
+    "label": 37,
+    "class_name": "Wirehaired Fox Terrier",
+    "file": "images/class_037.png"
+  },
+  {
+    "label": 38,
+    "class_name": "Lakeland Terrier",
+    "file": "images/class_038.png"
+  },
+  {
+    "label": 39,
+    "class_name": "Sealyham Terrier",
+    "file": "images/class_039.png"
+  },
+  {
+    "label": 40,
+    "class_name": "Airedale",
+    "file": "images/class_040.png"
+  },
+  {
+    "label": 41,
+    "class_name": "Cairn",
+    "file": "images/class_041.png"
+  },
+  {
+    "label": 42,
+    "class_name": "Australian Terrier",
+    "file": "images/class_042.png"
+  },
+  {
+    "label": 43,
+    "class_name": "Dandi Dinmont",
+    "file": "images/class_043.png"
+  },
+  {
+    "label": 44,
+    "class_name": "Boston Bull",
+    "file": "images/class_044.png"
+  },
+  {
+    "label": 45,
+    "class_name": "Miniature Schnauzer",
+    "file": "images/class_045.png"
+  },
+  {
+    "label": 46,
+    "class_name": "Giant Schnauzer",
+    "file": "images/class_046.png"
+  },
+  {
+    "label": 47,
+    "class_name": "Standard Schnauzer",
+    "file": "images/class_047.png"
+  },
+  {
+    "label": 48,
+    "class_name": "Scotch Terrier",
+    "file": "images/class_048.png"
+  },
+  {
+    "label": 49,
+    "class_name": "Tibetan Terrier",
+    "file": "images/class_049.png"
+  },
+  {
+    "label": 50,
+    "class_name": "Silky Terrier",
+    "file": "images/class_050.png"
+  },
+  {
+    "label": 51,
+    "class_name": "Soft-coated Wheaten Terrier",
+    "file": "images/class_051.png"
+  },
+  {
+    "label": 52,
+    "class_name": "West Highland White Terrier",
+    "file": "images/class_052.png"
+  },
+  {
+    "label": 53,
+    "class_name": "Lhasa",
+    "file": "images/class_053.png"
+  },
+  {
+    "label": 54,
+    "class_name": "Flat-coated Retriever",
+    "file": "images/class_054.png"
+  },
+  {
+    "label": 55,
+    "class_name": "Curly-coater Retriever",
+    "file": "images/class_055.png"
+  },
+  {
+    "label": 56,
+    "class_name": "Golden Retriever",
+    "file": "images/class_056.png"
+  },
+  {
+    "label": 57,
+    "class_name": "Labrador Retriever",
+    "file": "images/class_057.png"
+  },
+  {
+    "label": 58,
+    "class_name": "Chesapeake Bay Retriever",
+    "file": "images/class_058.png"
+  },
+  {
+    "label": 59,
+    "class_name": "German Short-haired Pointer",
+    "file": "images/class_059.png"
+  },
+  {
+    "label": 60,
+    "class_name": "Vizsla",
+    "file": "images/class_060.png"
+  },
+  {
+    "label": 61,
+    "class_name": "English Setter",
+    "file": "images/class_061.png"
+  },
+  {
+    "label": 62,
+    "class_name": "Irish Setter",
+    "file": "images/class_062.png"
+  },
+  {
+    "label": 63,
+    "class_name": "Gordon Setter",
+    "file": "images/class_063.png"
+  },
+  {
+    "label": 64,
+    "class_name": "Brittany",
+    "file": "images/class_064.png"
+  },
+  {
+    "label": 65,
+    "class_name": "Clumber",
+    "file": "images/class_065.png"
+  },
+  {
+    "label": 66,
+    "class_name": "English Springer Spaniel",
+    "file": "images/class_066.png"
+  },
+  {
+    "label": 67,
+    "class_name": "Welsh Springer Spaniel",
+    "file": "images/class_067.png"
+  },
+  {
+    "label": 68,
+    "class_name": "Cocker Spaniel",
+    "file": "images/class_068.png"
+  },
+  {
+    "label": 69,
+    "class_name": "Sussex Spaniel",
+    "file": "images/class_069.png"
+  },
+  {
+    "label": 70,
+    "class_name": "Irish Water Spaniel",
+    "file": "images/class_070.png"
+  },
+  {
+    "label": 71,
+    "class_name": "Kuvasz",
+    "file": "images/class_071.png"
+  },
+  {
+    "label": 72,
+    "class_name": "Schipperke",
+    "file": "images/class_072.png"
+  },
+  {
+    "label": 73,
+    "class_name": "Groenendael",
+    "file": "images/class_073.png"
+  },
+  {
+    "label": 74,
+    "class_name": "Malinois",
+    "file": "images/class_074.png"
+  },
+  {
+    "label": 75,
+    "class_name": "Briard",
+    "file": "images/class_075.png"
+  },
+  {
+    "label": 76,
+    "class_name": "Kelpie",
+    "file": "images/class_076.png"
+  },
+  {
+    "label": 77,
+    "class_name": "Komondor",
+    "file": "images/class_077.png"
+  },
+  {
+    "label": 78,
+    "class_name": "Old English Sheepdog",
+    "file": "images/class_078.png"
+  },
+  {
+    "label": 79,
+    "class_name": "Shetland Sheepdog",
+    "file": "images/class_079.png"
+  },
+  {
+    "label": 80,
+    "class_name": "Collie",
+    "file": "images/class_080.png"
+  },
+  {
+    "label": 81,
+    "class_name": "Border Collie",
+    "file": "images/class_081.png"
+  },
+  {
+    "label": 82,
+    "class_name": "Bouvier des Flandres",
+    "file": "images/class_082.png"
+  },
+  {
+    "label": 83,
+    "class_name": "Rottweiler",
+    "file": "images/class_083.png"
+  },
+  {
+    "label": 84,
+    "class_name": "German Shepard",
+    "file": "images/class_084.png"
+  },
+  {
+    "label": 85,
+    "class_name": "Doberman",
+    "file": "images/class_085.png"
+  },
+  {
+    "label": 86,
+    "class_name": "Miniature Pinscher",
+    "file": "images/class_086.png"
+  },
+  {
+    "label": 87,
+    "class_name": "Greater Swiss Mountain Dog",
+    "file": "images/class_087.png"
+  },
+  {
+    "label": 88,
+    "class_name": "Bernese Mountain Dog",
+    "file": "images/class_088.png"
+  },
+  {
+    "label": 89,
+    "class_name": "Appenzeller",
+    "file": "images/class_089.png"
+  },
+  {
+    "label": 90,
+    "class_name": "EntleBucher",
+    "file": "images/class_090.png"
+  },
+  {
+    "label": 91,
+    "class_name": "Boxer",
+    "file": "images/class_091.png"
+  },
+  {
+    "label": 92,
+    "class_name": "Bull Mastiff",
+    "file": "images/class_092.png"
+  },
+  {
+    "label": 93,
+    "class_name": "Tibetan Mastiff",
+    "file": "images/class_093.png"
+  },
+  {
+    "label": 94,
+    "class_name": "French Bulldog",
+    "file": "images/class_094.png"
+  },
+  {
+    "label": 95,
+    "class_name": "Great Dane",
+    "file": "images/class_095.png"
+  },
+  {
+    "label": 96,
+    "class_name": "Saint Bernard",
+    "file": "images/class_096.png"
+  },
+  {
+    "label": 97,
+    "class_name": "Eskimo Dog",
+    "file": "images/class_097.png"
+  },
+  {
+    "label": 98,
+    "class_name": "Malamute",
+    "file": "images/class_098.png"
+  },
+  {
+    "label": 99,
+    "class_name": "Siberian Husky",
+    "file": "images/class_099.png"
+  },
+  {
+    "label": 100,
+    "class_name": "Affenpinscher",
+    "file": "images/class_100.png"
+  },
+  {
+    "label": 101,
+    "class_name": "Basenji",
+    "file": "images/class_101.png"
+  },
+  {
+    "label": 102,
+    "class_name": "Pug",
+    "file": "images/class_102.png"
+  },
+  {
+    "label": 103,
+    "class_name": "Leonberg",
+    "file": "images/class_103.png"
+  },
+  {
+    "label": 104,
+    "class_name": "Newfoundland",
+    "file": "images/class_104.png"
+  },
+  {
+    "label": 105,
+    "class_name": "Great Pyrenees",
+    "file": "images/class_105.png"
+  },
+  {
+    "label": 106,
+    "class_name": "Samoyed",
+    "file": "images/class_106.png"
+  },
+  {
+    "label": 107,
+    "class_name": "Pomeranian",
+    "file": "images/class_107.png"
+  },
+  {
+    "label": 108,
+    "class_name": "Chow",
+    "file": "images/class_108.png"
+  },
+  {
+    "label": 109,
+    "class_name": "Keeshond",
+    "file": "images/class_109.png"
+  },
+  {
+    "label": 110,
+    "class_name": "Brabancon Griffon",
+    "file": "images/class_110.png"
+  },
+  {
+    "label": 111,
+    "class_name": "Pembroke",
+    "file": "images/class_111.png"
+  },
+  {
+    "label": 112,
+    "class_name": "Cardigan",
+    "file": "images/class_112.png"
+  },
+  {
+    "label": 113,
+    "class_name": "Toy Poodle",
+    "file": "images/class_113.png"
+  },
+  {
+    "label": 114,
+    "class_name": "Miniature Poodle",
+    "file": "images/class_114.png"
+  },
+  {
+    "label": 115,
+    "class_name": "Standard Poodle",
+    "file": "images/class_115.png"
+  },
+  {
+    "label": 116,
+    "class_name": "Mexican Hairless",
+    "file": "images/class_116.png"
+  },
+  {
+    "label": 117,
+    "class_name": "Dingo",
+    "file": "images/class_117.png"
+  },
+  {
+    "label": 118,
+    "class_name": "Dhole",
+    "file": "images/class_118.png"
+  },
+  {
+    "label": 119,
+    "class_name": "African Hunting Dog",
+    "file": "images/class_119.png"
+  }
+]

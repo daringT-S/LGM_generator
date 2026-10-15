@@ -1,0 +1,7 @@
+# Preserve recorded CSVs, accounting output and frozen source verbatim.
+flower102/** -whitespace
+stanford_dogs/** -whitespace
+source_snapshot/** -whitespace
+results.csv whitespace=cr-at-eol
+*.png binary
+*.gz binary

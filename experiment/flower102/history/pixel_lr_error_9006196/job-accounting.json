@@ -1,0 +1,11 @@
+{
+  "hostname": "r18n3",
+  "jobnumber": "9006196",
+  "priority": "0",
+  "start_time": "10/14/2026 14:10:54.861",
+  "end_time": "10/14/2026 14:13:38.835",
+  "failed": "0",
+  "exit_status": "1",
+  "ru_wallclock": "163.974",
+  "wallclock": "174.612"
+}

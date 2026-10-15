@@ -1,0 +1,73 @@
+==============================================================
+qname                    all.q               
+hostname                 r18n3               
+group                    tga-lab_otm
+owner                    us07824             
+project                  NONE                
+department               defaultdepartment   
+jobname                  lgm_pixel_5000      
+jobnumber                9006196             
+taskid                   undefined
+pe_taskid                NONE                
+account                  7824 2295 13750039 9006196 0 0 0 0 1 0 0 0 0 0 0 0 0 7200 0 0 0
+priority                 0                   
+cwd                      /gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-0RwHhugA
+submit_host              login1              
+submit_cmd               /apps/t4/rhel9/uge/latest/bin/lx-amd64/qsub.bin -A tga-lab_otm distill_job.sh
+qsub_time                10/14/2026 14:10:31.518
+start_time               10/14/2026 14:10:54.861
+end_time                 10/14/2026 14:13:38.835
+exec_host_list           r18n3:8             
+granted_pe               mpt                 
+slots                    8                   
+hard_resources           gg_mig=2(g1_m[12]^g2_m[12]^g3_m[12]^g4_m[12]),h_rt=7200,m_mem_free=12G,njobs=1
+soft_resources           NONE                
+hard_queues              all.q               
+soft_queues              NONE                
+granted_req.             NONE                
+failed                   0    
+deleted_by               NONE
+exit_status              1                   
+ru_wallclock             163.974      
+ru_utime                 9.263        
+ru_stime                 8.978        
+ru_maxrss                2312016             
+ru_ixrss                 0                   
+ru_ismrss                0                   
+ru_idrss                 0                   
+ru_isrss                 0                   
+ru_minflt                813840              
+ru_majflt                37552               
+ru_nswap                 0                   
+ru_inblock               2858336             
+ru_oublock               344                 
+ru_msgsnd                0                   
+ru_msgrcv                0                   
+ru_nsignals              0                   
+ru_nvcsw                 110601              
+ru_nivcsw                152                 
+wallclock                174.612      
+cpu                      18.241       
+mem                      280.556           
+io                       0.959             
+iow                      0.000             
+ioops                    28914               
+maxvmem                  77.811G
+maxrss                   3.833G
+maxpss                   0.000
+arid                     undefined
+arname                   NONE
+jc_name                  NONE
+bound_cores              NONE
+resource_map             NONE
+devices                  NONE
+gpus                     NONE
+gpu_usage                NONE
+failcnt                  0                   
+memsw.failcnt            0                   
+max_usage_in_bytes       3.438G
+memsw.max_usage_in_bytes 3.438G
+max_cgroups_memory       0.000
+hold_jid                 NONE                
+orig_exec_time           -/-
+exec_time                -/-

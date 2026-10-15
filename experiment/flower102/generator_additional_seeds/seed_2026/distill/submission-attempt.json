@@ -1,0 +1,11 @@
+{
+  "phase": "distill",
+  "seed": 2026,
+  "time_utc": "2026-10-14T17:04:36.560695+00:00",
+  "command": [
+    "qsub",
+    "-g",
+    "tga-lab_otm",
+    "distill_job.sh"
+  ]
+}

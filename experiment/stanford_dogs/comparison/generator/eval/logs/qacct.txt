@@ -1,0 +1,73 @@
+==============================================================
+qname                    all.q               
+hostname                 r22n10              
+group                    tga-lab_otm
+owner                    us07824             
+project                  NONE                
+department               defaultdepartment   
+jobname                  dogs_generator_eval 
+jobnumber                9014227             
+taskid                   undefined
+pe_taskid                NONE                
+account                  7824 2295 13766379 9014227 0 0 0 0 1 0 0 0 0 0 0 0 0 3600 0 0 0
+priority                 0                   
+cwd                      /gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki/generator/eval
+submit_host              login2              
+submit_cmd               /apps/t4/rhel9/uge/latest/bin/lx-amd64/qsub.bin -A tga-lab_otm eval_job.sh
+qsub_time                10/15/2026 10:53:39.242
+start_time               10/15/2026 10:54:04.713
+end_time                 10/15/2026 11:01:41.771
+exec_host_list           r22n10:8            
+granted_pe               mpt                 
+slots                    8                   
+hard_resources           gg_mig=2(g1_m[12]^g2_m[12]^g3_m[12]^g4_m[12]),h_rt=3600,m_mem_free=12G,njobs=1
+soft_resources           NONE                
+hard_queues              all.q,prior         
+soft_queues              all.q               
+granted_req.             NONE                
+failed                   0    
+deleted_by               NONE
+exit_status              0                   
+ru_wallclock             457.058      
+ru_utime                 292.617      
+ru_stime                 27.868       
+ru_maxrss                1900240             
+ru_ixrss                 0                   
+ru_ismrss                0                   
+ru_idrss                 0                   
+ru_isrss                 0                   
+ru_minflt                4760505             
+ru_majflt                32696               
+ru_nswap                 0                   
+ru_inblock               4152768             
+ru_oublock               125264              
+ru_msgsnd                0                   
+ru_msgrcv                0                   
+ru_nsignals              0                   
+ru_nvcsw                 212646              
+ru_nivcsw                848                 
+wallclock                463.705      
+cpu                      320.485      
+mem                      6534.058          
+io                       3.425             
+iow                      0.000             
+ioops                    151625              
+maxvmem                  68.974G
+maxrss                   5.201G
+maxpss                   0.000
+arid                     undefined
+arname                   NONE
+jc_name                  NONE
+bound_cores              NONE
+resource_map             NONE
+devices                  NONE
+gpus                     NONE
+gpu_usage                NONE
+failcnt                  0                   
+memsw.failcnt            0                   
+max_usage_in_bytes       3.463G
+memsw.max_usage_in_bytes 3.463G
+max_cgroups_memory       0.000
+hold_jid                 NONE                
+orig_exec_time           -/-
+exec_time                -/-

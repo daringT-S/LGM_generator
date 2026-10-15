@@ -1,0 +1,72 @@
+{
+  "experiment_dir": "/gs/bs/tga-lab_otm/us07824-lgm-generator-eval3-3QoaNElk",
+  "reuse_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "distillation_root": "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO",
+  "pixel_root": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2",
+  "run_name": "generator_final_9010498",
+  "source_data": "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/distillation/flowers102/dinov2_vitb/flowers102_generator_pixel_adam_it5000_ipc1/data.pth",
+  "data_sha256": "d9518a060a50fde628c1e7d89ea58fa4b021a28eb8f837ebf159a67bcda61312",
+  "evaluation": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100,
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "train_crop_mode": "random"
+  },
+  "evaluation_seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "std_ddof": 0,
+  "pixel_top1_mean_percent": 97.1432,
+  "pixel_top1_exact_mean_percent": 97.14316725730896,
+  "resources": {
+    "group": "tga-lab_otm",
+    "resource": "gpu_1=1",
+    "priority": 0,
+    "h_rt": "01:00:00",
+    "wandb": "offline",
+    "jobs": 1
+  },
+  "estimates": {
+    "runtime_minutes": [
+      10,
+      20
+    ],
+    "gpu_allocated_gib": [
+      2,
+      4
+    ],
+    "max_points": 0.16,
+    "expected_points": [
+      0.0433,
+      0.0666
+    ],
+    "basis": "Pixel eval 9006786: 3 repeats computed in 413.10s, peak allocation 2.046 GiB; failed only at final save."
+  },
+  "preserved_artifacts": {
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/experiment_report.md": "4df8287d58ddbe0e12d98e6fcd88994162a7684350c58bb6c943c211f50ad46c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distill_status.json": "74995b063024bc9c43f23ad3f67884d6d03c08e7c5941bfc6a70a8bea444708d",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/eval_status.json": "70e6a17b613e7b4a8f10ae817ec62b3206d2f7a1c95c73fadb667920d63bb225",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/loss.csv": "de39dde076880ff5ffbab70ba52a2b9782ac3ac3e67c14dfcada6eb1984271b5",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/distill.log": "078e098efb840fd61648ad629f33f5a1548dea6689397f2264c5e4425005b4f1",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/eval.log": "26cbb254c1d495833bc9a926a4bf77a9f3a4ff647fd1120f6c51932d6e297a1c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distillation/flowers102/dinov2_vitb/flowers102_pixel_adam_it5000_ipc1/data.pth": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/status.json": "628f72970cece24741dc46215d30306ba8855a0f42c8b2feb160573e94b0a434",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/generator_final.pth": "68ed9dbac12d10403c54923767b9884d2e4a80f2a8703d5d0e5b3055c2c8f55d",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/checkpoints/step_05000_final.pth": "7a50a1a86634dcce39c21918e7db07fee89dd967195c818b53c70c81d535708a",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/experiment_report.md": "df12a4ea4709e1be3063727d8fc4d42165797c3deb87926390628dbab2835c78",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/distillation/flowers102/dinov2_vitb/flowers102_generator_pixel_adam_it5000_ipc1/data.pth": "d9518a060a50fde628c1e7d89ea58fa4b021a28eb8f837ebf159a67bcda61312"
+  },
+  "status": "awaiting_user_approval"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "jobs": [
+    "9011716",
+    "9011850",
+    "9011891",
+    "9012260",
+    "9012295",
+    "9012395"
+  ],
+  "exit_statuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "png_count": 306,
+  "distill_checkpoints": 33,
+  "eval_checkpoints": 90,
+  "accuracy_records": 9,
+  "different_data_sha256_per_seed": true,
+  "local_data_hashes_match_remote": true,
+  "statistics_ddof": 0,
+  "summaries": {
+    "42": {
+      "top1_mean": 0.9949585398038229,
+      "top1_std": 0.0006900001059213498,
+      "top5_mean": 0.9982111056645712,
+      "top5_std": 0.00013278787931978361
+    },
+    "123": {
+      "top1_mean": 0.9944706559181213,
+      "top1_std": 0.000578786613777451,
+      "top5_mean": 0.999403695265452,
+      "top5_std": 7.667916639081987e-05
+    },
+    "2026": {
+      "top1_mean": 0.9936575094858805,
+      "top1_std": 0.001086912657255239,
+      "top5_mean": 0.999241054058075,
+      "top5_std": 0.0001533302348826325
+    }
+  }
+}

@@ -1,0 +1,75 @@
+# Generator seed 2026: eval
+
+状態: success
+
+```json
+{
+  "status": "success",
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.9925190806388855,
+      "top5": 0.9993494749069214
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.9951211810112,
+      "top5": 0.9990242123603821
+    },
+    {
+      "evaluation": 3,
+      "seed": 3409,
+      "top1": 0.9933322668075562,
+      "top5": 0.9993494749069214
+    }
+  ],
+  "config": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100,
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "train_crop_mode": "random"
+  },
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_2026/eval/input/flowers102/dinov2_vitb/generator_seed2026_final/data.pth",
+  "data_sha256": "1eef2ef52c877f97ee62b27c83dfe8b1d769456e9e7d5e7983cabf9949b2bfe6",
+  "std_ddof": 0,
+  "job_id": "9012395",
+  "host": "r18n10",
+  "gpu": "NVIDIA H100",
+  "torch": "2.8.0+cu126",
+  "cuda_build": "12.6",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "current_evaluation": 3,
+  "current_epoch": 900,
+  "summary": {
+    "top1_mean": 0.9936575094858805,
+    "top1_std": 0.001086912657255239,
+    "top5_mean": 0.999241054058075,
+    "top5_std": 0.0001533302348826325
+  },
+  "evaluator": "official distillation.eval",
+  "seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "classifier_reinitialized_each_repeat": true,
+  "pixel_top1_reference_percent": 97.1432,
+  "top1_delta_percentage_points": 2.222550948588051,
+  "total_seconds": 446.71130520803854,
+  "peak_gpu_memory_bytes": 2197092352,
+  "peak_reserved_gpu_memory_bytes": 2734686208
+}
+```
+
+実験設定: `experiment/plan.json`。既存の実験を上書きしない。

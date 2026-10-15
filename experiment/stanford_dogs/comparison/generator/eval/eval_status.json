@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.774125874042511,
+      "top5": 0.9645687937736511
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.7680652737617493,
+      "top5": 0.9644522070884705
+    },
+    {
+      "evaluation": 3,
+      "seed": 3409,
+      "top1": 0.7714452147483826,
+      "top5": 0.9636363387107849
+    }
+  ],
+  "config": {
+    "dataset": "stanforddogs",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100
+  },
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki/generator/eval/input/stanforddogs/dinov2_vitb/generator_final/data.pth",
+  "data_sha256": "b1f59f2ee31a3779a5ed09a04c5efc11b14c34ca3963964989eea7cacb2d94e8",
+  "std_ddof": 0,
+  "job_id": "9014227",
+  "host": "r22n10",
+  "gpu": "NVIDIA H100",
+  "torch": "2.8.0+cu126",
+  "cuda_build": "12.6",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "current_evaluation": 3,
+  "current_epoch": 900,
+  "summary": {
+    "top1_mean": 0.771212120850881,
+    "top1_std": 0.002479713493474818,
+    "top5_mean": 0.9642191131909689,
+    "top5_std": 0.00041482340407743133
+  },
+  "evaluator": "official distillation.eval",
+  "seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "classifier_reinitialized_each_repeat": true,
+  "total_seconds": 440.30677065998316,
+  "peak_gpu_memory_bytes": 2226743296,
+  "peak_reserved_gpu_memory_bytes": 2757754880
+}

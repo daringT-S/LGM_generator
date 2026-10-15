@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "user_message": "お願いします",
+  "scope": "3 distillations and 3 conditional evaluations, sequential; no retries",
+  "time_utc": "2026-10-14T15:41:17.761521+00:00",
+  "study_plan_sha256": "f17b68918d44a3fbbe4db6736130d2273f0a40ef0b8a4ed22a453bc3aebf1eca",
+  "max_jobs": 6,
+  "max_points": 1.44
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "mode": "pixel",
+  "updates": 5001,
+  "images_shape": [
+    120,
+    3,
+    256,
+    256
+  ],
+  "png_count": 120,
+  "snapshot_count": 11,
+  "data_sha256": "f893c1fdfe0214e6cbc9cb0c51390582aafb54861cd7678017143024e49f8359",
+  "cpu_regeneration_max_abs_difference": null,
+  "previous_artifacts_unchanged": true
+}

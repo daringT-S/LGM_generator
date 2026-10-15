@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "files": {
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/experiment_report.md": "4df8287d58ddbe0e12d98e6fcd88994162a7684350c58bb6c943c211f50ad46c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distill_status.json": "74995b063024bc9c43f23ad3f67884d6d03c08e7c5941bfc6a70a8bea444708d",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/eval_status.json": "70e6a17b613e7b4a8f10ae817ec62b3206d2f7a1c95c73fadb667920d63bb225",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/loss.csv": "de39dde076880ff5ffbab70ba52a2b9782ac3ac3e67c14dfcada6eb1984271b5",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/distill.log": "078e098efb840fd61648ad629f33f5a1548dea6689397f2264c5e4425005b4f1",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/eval.log": "26cbb254c1d495833bc9a926a4bf77a9f3a4ff647fd1120f6c51932d6e297a1c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distillation/flowers102/dinov2_vitb/flowers102_pixel_adam_it5000_ipc1/data.pth": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/status.json": "628f72970cece24741dc46215d30306ba8855a0f42c8b2feb160573e94b0a434",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/generator_final.pth": "68ed9dbac12d10403c54923767b9884d2e4a80f2a8703d5d0e5b3055c2c8f55d",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/checkpoints/step_05000_final.pth": "7a50a1a86634dcce39c21918e7db07fee89dd967195c818b53c70c81d535708a",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/experiment_report.md": "df12a4ea4709e1be3063727d8fc4d42165797c3deb87926390628dbab2835c78",
+    "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/distillation/flowers102/dinov2_vitb/flowers102_generator_pixel_adam_it5000_ipc1/data.pth": "d9518a060a50fde628c1e7d89ea58fa4b021a28eb8f837ebf159a67bcda61312"
+  }
+}

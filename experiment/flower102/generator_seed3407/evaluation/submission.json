@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-14T14:56:45.557780+00:00",
+  "command": [
+    "qsub",
+    "-g",
+    "tga-lab_otm",
+    "eval_job.sh"
+  ],
+  "authorization": "User approved starting the prepared Generator-image classification evaluation, 3 repeats, one job only.",
+  "returncode": 0,
+  "stdout": "Your job 9011526 (\"lgm_generator_eval3\") has been submitted\n",
+  "stderr": "",
+  "job_id": "9011526"
+}

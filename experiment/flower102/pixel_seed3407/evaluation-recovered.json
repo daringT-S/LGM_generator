@@ -1,0 +1,51 @@
+{
+  "status": "partial",
+  "job_id": "9006786",
+  "computed_evaluations": 3,
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.9730037450790405,
+      "top5": 0.9995121359825134
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.9676370024681091,
+      "top5": 0.9985363483428955
+    },
+    {
+      "evaluation": 3,
+      "seed": 3409,
+      "top1": 0.9736542701721191,
+      "top5": null
+    }
+  ],
+  "summary": {
+    "top1_mean": 0.9714316725730896,
+    "top1_std": 0.002696347730839576,
+    "top5_mean": null,
+    "top5_std": null
+  },
+  "std_ddof": 0,
+  "initial_checkpoint_seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "independent_initial_weights": true,
+  "empty_optimizer_state_each_initialization": true,
+  "same_data_sha256": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653",
+  "eval_log_sha256": "26cbb254c1d495833bc9a926a4bf77a9f3a4ff647fd1120f6c51932d6e297a1c",
+  "missing": [
+    "evaluation_3.top5",
+    "top5_mean_3_repeats",
+    "top5_std_3_repeats"
+  ],
+  "cause": "保存ラッパーrecording_save(obj, file, ...)がtorch.save(obj=..., f=...)のfキーワードを受け取れず、3回の評価計算後の最終保存でTypeError。",
+  "source_of_top1": "公式EvaluatorのFinished!直後に出力された3回分の精度リスト",
+  "source_of_top5_1_and_2": "eval_status.jsonおよび3回目epoch900のチェックポイント",
+  "no_additional_gpu_jobs": true,
+  "no_retraining_or_reevaluation": true
+}

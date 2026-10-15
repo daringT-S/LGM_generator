@@ -1,0 +1,48 @@
+{
+  "status": "error",
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.9730037450790405,
+      "top5": 0.9995121359825134
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.9676370024681091,
+      "top5": 0.9985363483428955
+    }
+  ],
+  "config": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100,
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "train_crop_mode": "random"
+  },
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distillation/flowers102/dinov2_vitb/flowers102_pixel_adam_it5000_ipc1/data.pth",
+  "data_sha256": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653",
+  "std_ddof": 0,
+  "job_id": "9006786",
+  "host": "r21n7",
+  "gpu": "NVIDIA H100",
+  "torch": "2.8.0+cu126",
+  "cuda_build": "12.6",
+  "source_commit": "33d004b8c16d9ab8e39aec780f9edad767f6f033",
+  "current_evaluation": 3,
+  "current_epoch": 900,
+  "error": "main.<locals>.recording_save() missing 1 required positional argument: 'file'",
+  "traceback": "Traceback (most recent call last):\n  File \"/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/experiment/run_eval.py\", line 57, in main\n    namespace = runpy.run_module('distillation.eval', run_name='__main__')\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen runpy>\", line 229, in run_module\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/repo/src/distillation/eval.py\", line 354, in <module>\n    torch.save(obj=save_dict, f=save_file)\nTypeError: main.<locals>.recording_save() missing 1 required positional argument: 'file'\n",
+  "total_seconds": 413.097396583762,
+  "peak_gpu_memory_bytes": 2197092352,
+  "peak_reserved_gpu_memory_bytes": 2734686208
+}

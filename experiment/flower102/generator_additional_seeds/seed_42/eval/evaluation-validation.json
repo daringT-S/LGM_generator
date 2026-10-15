@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "job_id": "9011850",
+  "initial_checkpoint_seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "independent_initial_weights": true,
+  "empty_optimizer_state_each_initialization": true,
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.9954464435577393,
+      "top5": 0.9982110857963562
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.9954464435577393,
+      "top5": 0.9980484843254089
+    },
+    {
+      "evaluation": 3,
+      "seed": 3409,
+      "top1": 0.99398273229599,
+      "top5": 0.9983737468719482
+    }
+  ],
+  "summary": {
+    "top1_mean": 0.9949585398038229,
+    "top1_std": 0.0006900001059213498,
+    "top5_mean": 0.9982111056645712,
+    "top5_std": 0.00013278787931978361
+  },
+  "std_ddof": 0,
+  "same_data_sha256": "ba1ed540029844b879f7b7c6699c74a2c64c8588c900f076d0fef2025a1069bb"
+}

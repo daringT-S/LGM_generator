@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "completed_phases": [
+    {
+      "mode": "pixel",
+      "phase": "distill",
+      "job_id": "9013760",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "mode": "pixel",
+      "phase": "eval",
+      "job_id": "9013854",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "mode": "generator",
+      "phase": "distill",
+      "job_id": "9013956",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "mode": "generator",
+      "phase": "eval",
+      "job_id": "9014227",
+      "exit_status": 0,
+      "validation": "passed"
+    }
+  ],
+  "mode": "generator",
+  "phase": "eval",
+  "stage": "all_validated",
+  "job_id": "9014227"
+}

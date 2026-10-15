@@ -1,0 +1,7 @@
+{
+  "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_123/distill/distillation/flowers102/dinov2_vitb/flowers102_generator_pixel_adam_it5000_ipc1_seed123/data.pth": "f3dfe864f00636db49927cee738fe32e25d692360130dddfcf5e7d33b8a36a6f",
+  "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_123/distill/generator_final.pth": "69e2db7766d96dfa3a92a7b7e64d41227dfa1ca9fc21771a9ae3821f8f9751aa",
+  "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_123/distill/checkpoints/step_05000_final.pth": "f31ae0c44a81b4f641a5f776942fee0b6fe61e281bbfa55111d7cd9086cf3007",
+  "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_123/distill/initialization.json": "505996fc464afa98b698563e36dea2d1e9db5e9a32c3161c756046dec123b886",
+  "/gs/bs/tga-lab_otm/us07824-lgm-generator-seeds-wrpWhzXU/seed_123/distill/status.json": "b6d53d8e8667cd4e19ee1997d46be926c64d0d393745f1ee8f25c7488fe7a28e"
+}

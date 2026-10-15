@@ -1,0 +1,67 @@
+{
+  "status": "success",
+  "completed_evaluations": [
+    {
+      "evaluation": 1,
+      "seed": 3407,
+      "top1": 0.9957716464996338,
+      "top5": 0.9990242123603821
+    },
+    {
+      "evaluation": 2,
+      "seed": 3408,
+      "top1": 0.9954464435577393,
+      "top5": 0.9982110857963562
+    },
+    {
+      "evaluation": 3,
+      "seed": 3409,
+      "top1": 0.9956090450286865,
+      "top5": 0.9986989498138428
+    }
+  ],
+  "config": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100,
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "train_crop_mode": "random"
+  },
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-generator-eval3-3QoaNElk/input/flowers102/dinov2_vitb/generator_final_9010498/data.pth",
+  "data_sha256": "d9518a060a50fde628c1e7d89ea58fa4b021a28eb8f837ebf159a67bcda61312",
+  "std_ddof": 0,
+  "job_id": "9011526",
+  "host": "r18n9",
+  "gpu": "NVIDIA H100",
+  "torch": "2.8.0+cu126",
+  "cuda_build": "12.6",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "current_evaluation": 3,
+  "current_epoch": 900,
+  "summary": {
+    "top1_mean": 0.9956090450286865,
+    "top1_std": 0.00013276354508226135,
+    "top5_mean": 0.998644749323527,
+    "top5_std": 0.0003341626072677633
+  },
+  "evaluator": "official distillation.eval",
+  "seeds": [
+    3407,
+    3408,
+    3409
+  ],
+  "classifier_reinitialized_each_repeat": true,
+  "pixel_top1_reference_percent": 97.1432,
+  "top1_delta_percentage_points": 2.4177045028686592,
+  "total_seconds": 400.7025024869945,
+  "peak_gpu_memory_bytes": 2197092352,
+  "peak_reserved_gpu_memory_bytes": 2734686208
+}

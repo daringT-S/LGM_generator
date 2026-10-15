@@ -1,0 +1,99 @@
+{
+  "experiment_dir": "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO",
+  "reuse_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "distillation": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "distill_mode": "generator_pixel",
+    "distill_opt": "adam",
+    "iterations": 5000,
+    "ipc": 1,
+    "lr": 0.002,
+    "generator_latent_dim": 128,
+    "num_workers": 2,
+    "augs_per_batch": 1,
+    "syn_res": 256,
+    "real_res": 256,
+    "crop_res": 224,
+    "init_mode": "noise",
+    "aug_mode": "standard",
+    "decorrelate_color": true,
+    "train_crop_mode": "random",
+    "checkpoint_it": 100,
+    "image_log_it": 500,
+    "data_root": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv/data",
+    "job_tag": "/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/distillation",
+    "run_name": "flowers102_generator_pixel_adam_it5000_ipc1",
+    "skip_if_exists": false
+  },
+  "seed": 3407,
+  "resources": {
+    "group": "tga-lab_otm",
+    "resource": "gpu_1=1",
+    "gpu": "H100 x 1",
+    "priority": 0,
+    "h_rt": "02:00:00",
+    "wandb": "offline",
+    "jobs": 1
+  },
+  "estimates": {
+    "seconds": [
+      1800,
+      3600
+    ],
+    "gpu_gib": [
+      16,
+      24
+    ],
+    "max_points": 0.32,
+    "expected_points": [
+      0.11,
+      0.18
+    ],
+    "basis": "Pixel job 9006325: 5001 updates, experiment_seconds 1327.34; Generator not yet GPU tested"
+  },
+  "unchanged_core_sha256": {
+    "synsets/pixels.py": "2e3f625264a4f8b9948cbabed284a3e6b5e52963793971f467d00ede16a716ec",
+    "synsets/pyramid.py": "2529d34a231c9cc91696c92060e96c42d67493f20cf0137cedb6ad6f48eb82ef",
+    "distillation/linear_gm.py": "bbc062c638c6882e15d1b49f9ee861dcfc216a9e6ff64a640e3671eb8baee69b",
+    "distillation/distill.py": "3b9c801be61c6ecb1c40d481b5109a73c9e8c6a3b6539e21f3686190ae668e89",
+    "distillation/eval.py": "71a178b0e47edf3350faaaf8a596bda13b29dbb71ed9dec1d1729d3b7b22cbfc",
+    "config/eval_config.py": "219031ff80c41580d7e96670e48dbd642988cf2ab90b775f3c5409df0f70d34b"
+  },
+  "cli_args": [
+    "--dataset=flowers102",
+    "--model=dinov2_vitb",
+    "--distill_mode=generator_pixel",
+    "--distill_opt=adam",
+    "--iterations=5000",
+    "--ipc=1",
+    "--lr=0.002",
+    "--generator_latent_dim=128",
+    "--num_workers=2",
+    "--augs_per_batch=1",
+    "--syn_res=256",
+    "--real_res=256",
+    "--crop_res=224",
+    "--init_mode=noise",
+    "--aug_mode=standard",
+    "--decorrelate_color=True",
+    "--train_crop_mode=random",
+    "--checkpoint_it=100",
+    "--image_log_it=500",
+    "--data_root=/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv/data",
+    "--job_tag=/gs/bs/tga-lab_otm/us07824-lgm-generator-5000-vE8eQLnO/distillation",
+    "--run_name=flowers102_generator_pixel_adam_it5000_ipc1",
+    "--skip_if_exists=False"
+  ],
+  "status": "authorized_one_distillation_no_evaluation",
+  "previous_pixel_artifacts": {
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/experiment_report.md": "4df8287d58ddbe0e12d98e6fcd88994162a7684350c58bb6c943c211f50ad46c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distill_status.json": "74995b063024bc9c43f23ad3f67884d6d03c08e7c5941bfc6a70a8bea444708d",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/eval_status.json": "70e6a17b613e7b4a8f10ae817ec62b3206d2f7a1c95c73fadb667920d63bb225",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/loss.csv": "de39dde076880ff5ffbab70ba52a2b9782ac3ac3e67c14dfcada6eb1984271b5",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/distill.log": "078e098efb840fd61648ad629f33f5a1548dea6689397f2264c5e4425005b4f1",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/logs/eval.log": "26cbb254c1d495833bc9a926a4bf77a9f3a4ff647fd1120f6c51932d6e297a1c",
+    "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distillation/flowers102/dinov2_vitb/flowers102_pixel_adam_it5000_ipc1/data.pth": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653"
+  }
+}

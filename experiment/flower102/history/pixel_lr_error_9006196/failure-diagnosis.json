@@ -1,0 +1,12 @@
+{
+  "job_id": "9006196",
+  "cause": "DistillCfg.lrに型注釈がなく、明示した--lr=0.002がstrとして解釈された。Adamのlr / bias_correctionでTypeErrorが発生した。",
+  "saved_lr": "0.002",
+  "saved_lr_type": "str",
+  "explicit_cli_lr_type": "str",
+  "default_lr_type": "float",
+  "completed_updates": 0,
+  "evaluation_submitted": false,
+  "resubmission_performed": false,
+  "training_sources_unchanged": true
+}

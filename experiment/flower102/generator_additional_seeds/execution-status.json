@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "completed_phases": [
+    {
+      "seed": 42,
+      "phase": "distill",
+      "job_id": "9011716",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "seed": 42,
+      "phase": "eval",
+      "job_id": "9011850",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "seed": 123,
+      "phase": "distill",
+      "job_id": "9011891",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "seed": 123,
+      "phase": "eval",
+      "job_id": "9012260",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "seed": 2026,
+      "phase": "distill",
+      "job_id": "9012295",
+      "exit_status": 0,
+      "validation": "passed"
+    },
+    {
+      "seed": 2026,
+      "phase": "eval",
+      "job_id": "9012395",
+      "exit_status": 0,
+      "validation": "passed"
+    }
+  ],
+  "seed": 2026,
+  "phase": "eval",
+  "stage": "all_validated",
+  "job_id": "9012395"
+}

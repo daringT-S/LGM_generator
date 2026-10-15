@@ -1,0 +1,11 @@
+{
+  "phase": "eval",
+  "seed": 123,
+  "time_utc": "2026-10-14T16:55:54.080126+00:00",
+  "command": [
+    "qsub",
+    "-g",
+    "tga-lab_otm",
+    "eval_job.sh"
+  ]
+}

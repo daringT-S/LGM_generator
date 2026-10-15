@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "approved_at_utc": "2026-10-15T00:51:21.337530+00:00",
+  "user_message": "お願いします実験を開始してください",
+  "max_jobs": 4,
+  "max_points": 0.96,
+  "automatic_retries": false,
+  "plan_sha256": "4ea74ef1a349079cf9d07a6ed33a11ee5390021d30b0b08b5046a5e2d4cdf8b0"
+}

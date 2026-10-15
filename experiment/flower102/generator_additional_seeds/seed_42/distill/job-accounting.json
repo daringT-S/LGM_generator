@@ -1,0 +1,14 @@
+{
+  "jobnumber": "9011716",
+  "hostname": "r2n1",
+  "group": "tga-lab_otm",
+  "priority": "0",
+  "start_time": "10/15/2026 00:42:13.574",
+  "end_time": "10/15/2026 01:09:44.450",
+  "exit_status": "0",
+  "failed": "0",
+  "wallclock": "1663.883",
+  "ru_wallclock": "1650.876",
+  "slots": "8",
+  "maxrss": "4.331G"
+}

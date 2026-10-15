@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "dinov2_weights_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "same_cached_weights_as_pixel": true,
+  "gpu_jobs_submitted": 0,
+  "resource": "gpu_1=1",
+  "h_rt": "01:00:00",
+  "priority": 0
+}

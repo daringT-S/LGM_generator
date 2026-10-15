@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "job_id": "9006325",
+  "data_path": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/distillation/flowers102/dinov2_vitb/flowers102_pixel_adam_it5000_ipc1/data.pth",
+  "data_sha256": "05d7bc5a4af8b87f09b503527ce722a6a9152d8e8d08419ae4e2dc5b03749653",
+  "data_bytes": 80218637,
+  "images_shape": [
+    102,
+    3,
+    256,
+    256
+  ],
+  "png_count": 102,
+  "loss_rows": 5001,
+  "first_loss": 0.9891912937164307,
+  "last_loss": 0.6440277099609375,
+  "final_adam_step": 5001,
+  "final_checkpoint": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-lrfix-qNrXBJZ2/checkpoints/step_05000_final.pth",
+  "checkpoint_matches_images_max_abs_diff": 1.1920928955078125e-07,
+  "all_values_finite": true,
+  "pixel_dataset": true,
+  "source_hashes_verified": true
+}

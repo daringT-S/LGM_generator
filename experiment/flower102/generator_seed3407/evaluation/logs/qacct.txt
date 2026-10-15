@@ -1,0 +1,73 @@
+==============================================================
+qname                    all.q               
+hostname                 r18n9               
+group                    tga-lab_otm
+owner                    us07824             
+project                  NONE                
+department               defaultdepartment   
+jobname                  lgm_generator_eval3 
+jobnumber                9011526             
+taskid                   undefined
+pe_taskid                NONE                
+account                  7824 2295 13759356 9011526 0 0 0 0 1 0 0 0 0 0 0 0 0 3600 0 0 0
+priority                 0                   
+cwd                      /gs/bs/tga-lab_otm/us07824-lgm-generator-eval3-3QoaNElk
+submit_host              login1              
+submit_cmd               /apps/t4/rhel9/uge/latest/bin/lx-amd64/qsub.bin -A tga-lab_otm eval_job.sh
+qsub_time                10/14/2026 23:56:45.782
+start_time               10/14/2026 23:57:12.222
+end_time                 10/15/2026 00:04:07.576
+exec_host_list           r18n9:8             
+granted_pe               mpt                 
+slots                    8                   
+hard_resources           gg_mig=2(g1_m[12]^g2_m[12]^g3_m[12]^g4_m[12]),h_rt=3600,m_mem_free=12G,njobs=1
+soft_resources           NONE                
+hard_queues              all.q,prior         
+soft_queues              all.q               
+granted_req.             NONE                
+failed                   0    
+deleted_by               NONE
+exit_status              0                   
+ru_wallclock             415.354      
+ru_utime                 270.396      
+ru_stime                 24.622       
+ru_maxrss                1884308             
+ru_ixrss                 0                   
+ru_ismrss                0                   
+ru_idrss                 0                   
+ru_isrss                 0                   
+ru_minflt                5070067             
+ru_majflt                32773               
+ru_nswap                 0                   
+ru_inblock               3780768             
+ru_oublock               107080              
+ru_msgsnd                0                   
+ru_msgrcv                0                   
+ru_nsignals              0                   
+ru_nvcsw                 186737              
+ru_nivcsw                898                 
+wallclock                428.239      
+cpu                      295.018      
+mem                      6104.107          
+io                       2.867             
+iow                      0.000             
+ioops                    124103              
+maxvmem                  69.021G
+maxrss                   5.207G
+maxpss                   0.000
+arid                     undefined
+arname                   NONE
+jc_name                  NONE
+bound_cores              NONE
+resource_map             NONE
+devices                  NONE
+gpus                     NONE
+gpu_usage                NONE
+failcnt                  0                   
+memsw.failcnt            0                   
+max_usage_in_bytes       3.556G
+memsw.max_usage_in_bytes 3.556G
+max_cgroups_memory       0.000
+hold_jid                 NONE                
+orig_exec_time           -/-
+exec_time                -/-

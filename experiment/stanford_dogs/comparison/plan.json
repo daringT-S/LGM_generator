@@ -1,0 +1,120 @@
+{
+  "status": "approved_preparing",
+  "gpu_jobs_submitted": 0,
+  "local_report_dir": "/home/takuto/projects/linear-gradient-matching/reports/stanford-dogs-comparison-plan-q361seki",
+  "proposed_remote_dir": "/gs/bs/tga-lab_otm/us07824-lgm-stanford-dogs-comparison-plan-q361seki",
+  "remote_directory_created": true,
+  "dataset_cli_name": "stanforddogs",
+  "requested_dataset_name": "stanford_dogs",
+  "source_changes": [],
+  "distillation": {
+    "dataset": "stanforddogs",
+    "model": "dinov2_vitb",
+    "distill_modes": [
+      "pixel",
+      "generator_pixel"
+    ],
+    "distill_opt": "adam",
+    "lr": 0.002,
+    "ipc": 1,
+    "iterations": 5000,
+    "updates": 5001,
+    "num_workers": 2,
+    "augs_per_batch": 1,
+    "syn_res": 256,
+    "real_res": 256,
+    "crop_res": 224,
+    "train_crop_mode": "random",
+    "aug_mode": "standard",
+    "decorrelate_color": true,
+    "init_mode": "noise",
+    "seed": 3407,
+    "generator_latent_dim": 128
+  },
+  "evaluation": {
+    "dataset": "stanforddogs",
+    "model": "dinov2_vitb",
+    "eval_model": "dinov2_vitb",
+    "num_eval": 3,
+    "eval_epochs": 1000,
+    "evaluation_seeds": [
+      3407,
+      3408,
+      3409
+    ],
+    "num_workers": 2,
+    "real_batch_size": 100,
+    "real_res": 256,
+    "crop_res": 224,
+    "eval_it": -1,
+    "patience": 5,
+    "checkpoint_it": 100,
+    "std_ddof": 0
+  },
+  "resources": {
+    "group": "tga-lab_otm",
+    "resource": "gpu_1=1",
+    "priority": 0,
+    "wandb": "offline",
+    "distill_h_rt": "02:00:00",
+    "eval_h_rt": "01:00:00",
+    "distill_jobs": 2,
+    "eval_jobs": 2,
+    "max_concurrent_jobs": 1,
+    "max_jobs": 4,
+    "max_points": 0.96
+  },
+  "expected": {
+    "distill_minutes_per_mode": [
+      30,
+      50
+    ],
+    "evaluation_minutes_per_mode": [
+      10,
+      20
+    ],
+    "serial_minutes": [
+      80,
+      140
+    ],
+    "distill_peak_gib": [
+      20,
+      28
+    ],
+    "eval_peak_gib": [
+      3,
+      5
+    ],
+    "point_estimate_total": [
+      0.3066,
+      0.4464
+    ],
+    "not_measured_on_dogs": true
+  },
+  "dataset_validation": {
+    "status": "not_downloaded",
+    "expected_classes": 120,
+    "expected_train_images": 12000,
+    "expected_test_images": 8580,
+    "expected_total_images": 20580,
+    "label_range": [
+      0,
+      119
+    ],
+    "synthetic_image_shape": [
+      120,
+      3,
+      256,
+      256
+    ],
+    "bbox_crop": false,
+    "checked_existing_dirs_only": true
+  },
+  "download_head_check": {
+    "http_status": 200,
+    "image_archive_bytes": 793579520,
+    "https_error": "CERTIFICATE_VERIFY_FAILED: hostname mismatch"
+  },
+  "reuse_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv",
+  "cpu_loader_validation": "passed_with_synthetic_fixture"
+}

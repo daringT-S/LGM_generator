@@ -1,0 +1,269 @@
+{
+  "status": "passed",
+  "tap_version": "1.12.0",
+  "lr_annotation": "float",
+  "argparse_lr_action_type": "float",
+  "cases": [
+    {
+      "case": "default",
+      "parsed_lr_type": "float",
+      "lr": 0.002,
+      "wandb_roundtrip_lr_type": "float",
+      "optimizer_lr_type": "float",
+      "cpu_adam_steps": 1,
+      "parameter_changed": true,
+      "max_parameter_change": 0.0019999999919999567,
+      "numeric_settings": {
+        "num_workers": {
+          "type": "int",
+          "value": 16
+        },
+        "ipc": {
+          "type": "int",
+          "value": 1
+        },
+        "lr": {
+          "type": "float",
+          "value": 0.002
+        },
+        "iterations": {
+          "type": "int",
+          "value": 5000
+        },
+        "augs_per_batch": {
+          "type": "int",
+          "value": 10
+        },
+        "pyramid_extent_it": {
+          "type": "int",
+          "value": 200
+        },
+        "pyramid_start_res": {
+          "type": "int",
+          "value": 1
+        },
+        "image_log_it": {
+          "type": "int",
+          "value": 500
+        },
+        "checkpoint_it": {
+          "type": "int",
+          "value": 100
+        },
+        "syn_res": {
+          "type": "int",
+          "value": 256
+        },
+        "real_res": {
+          "type": "int",
+          "value": 256
+        },
+        "crop_res": {
+          "type": "int",
+          "value": 224
+        },
+        "device_count": {
+          "type": "int",
+          "value": 0
+        }
+      }
+    },
+    {
+      "case": "explicit",
+      "parsed_lr_type": "float",
+      "lr": 0.002,
+      "wandb_roundtrip_lr_type": "float",
+      "optimizer_lr_type": "float",
+      "cpu_adam_steps": 1,
+      "parameter_changed": true,
+      "max_parameter_change": 0.0019999999919999567,
+      "numeric_settings": {
+        "num_workers": {
+          "type": "int",
+          "value": 16
+        },
+        "ipc": {
+          "type": "int",
+          "value": 1
+        },
+        "lr": {
+          "type": "float",
+          "value": 0.002
+        },
+        "iterations": {
+          "type": "int",
+          "value": 5000
+        },
+        "augs_per_batch": {
+          "type": "int",
+          "value": 10
+        },
+        "pyramid_extent_it": {
+          "type": "int",
+          "value": 200
+        },
+        "pyramid_start_res": {
+          "type": "int",
+          "value": 1
+        },
+        "image_log_it": {
+          "type": "int",
+          "value": 500
+        },
+        "checkpoint_it": {
+          "type": "int",
+          "value": 100
+        },
+        "syn_res": {
+          "type": "int",
+          "value": 256
+        },
+        "real_res": {
+          "type": "int",
+          "value": 256
+        },
+        "crop_res": {
+          "type": "int",
+          "value": 224
+        },
+        "device_count": {
+          "type": "int",
+          "value": 0
+        }
+      }
+    },
+    {
+      "case": "scientific",
+      "parsed_lr_type": "float",
+      "lr": 0.002,
+      "wandb_roundtrip_lr_type": "float",
+      "optimizer_lr_type": "float",
+      "cpu_adam_steps": 1,
+      "parameter_changed": true,
+      "max_parameter_change": 0.0019999999919999567,
+      "numeric_settings": {
+        "num_workers": {
+          "type": "int",
+          "value": 16
+        },
+        "ipc": {
+          "type": "int",
+          "value": 1
+        },
+        "lr": {
+          "type": "float",
+          "value": 0.002
+        },
+        "iterations": {
+          "type": "int",
+          "value": 5000
+        },
+        "augs_per_batch": {
+          "type": "int",
+          "value": 10
+        },
+        "pyramid_extent_it": {
+          "type": "int",
+          "value": 200
+        },
+        "pyramid_start_res": {
+          "type": "int",
+          "value": 1
+        },
+        "image_log_it": {
+          "type": "int",
+          "value": 500
+        },
+        "checkpoint_it": {
+          "type": "int",
+          "value": 100
+        },
+        "syn_res": {
+          "type": "int",
+          "value": 256
+        },
+        "real_res": {
+          "type": "int",
+          "value": 256
+        },
+        "crop_res": {
+          "type": "int",
+          "value": 224
+        },
+        "device_count": {
+          "type": "int",
+          "value": 0
+        }
+      }
+    },
+    {
+      "case": "production",
+      "parsed_lr_type": "float",
+      "lr": 0.002,
+      "wandb_roundtrip_lr_type": "float",
+      "optimizer_lr_type": "float",
+      "cpu_adam_steps": 1,
+      "parameter_changed": true,
+      "max_parameter_change": 0.0019999999919999567,
+      "numeric_settings": {
+        "num_workers": {
+          "type": "int",
+          "value": 2
+        },
+        "ipc": {
+          "type": "int",
+          "value": 1
+        },
+        "lr": {
+          "type": "float",
+          "value": 0.002
+        },
+        "iterations": {
+          "type": "int",
+          "value": 5000
+        },
+        "augs_per_batch": {
+          "type": "int",
+          "value": 1
+        },
+        "pyramid_extent_it": {
+          "type": "int",
+          "value": 200
+        },
+        "pyramid_start_res": {
+          "type": "int",
+          "value": 1
+        },
+        "image_log_it": {
+          "type": "int",
+          "value": 500
+        },
+        "checkpoint_it": {
+          "type": "int",
+          "value": 100
+        },
+        "syn_res": {
+          "type": "int",
+          "value": 256
+        },
+        "real_res": {
+          "type": "int",
+          "value": 256
+        },
+        "crop_res": {
+          "type": "int",
+          "value": 224
+        },
+        "device_count": {
+          "type": "int",
+          "value": 0
+        }
+      }
+    }
+  ],
+  "invalid_lr_cli_rejected": true,
+  "previous_failed_logs_and_report_unchanged": true,
+  "gpu_jobs_submitted": 0,
+  "gpu_training_performed": false,
+  "optimizer_factory": "original PixelDataset.init_optimizer, unchanged"
+}

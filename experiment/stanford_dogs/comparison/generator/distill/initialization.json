@@ -1,0 +1,9 @@
+{
+  "distillation_seed": 3407,
+  "generator_init_cpu_seed": 3407,
+  "fixed_noise_init_cuda_seed": 3407,
+  "cpu_rng_before_generator_sha256": "f027a2b994cf1d73f1c27ec79363e06156d17f0a46fd83da7f8fb666e3fe56fd",
+  "cuda_rng_before_noise_sha256": "9e09f9c8014e76e6f2df4852bf886beb7e2e3811306ed48788206d1e400f0dbc",
+  "initial_noise_sha256": "316fe9b1640a9a314263980e560baa7bb5361274f2f87c9edbbf1008b62fb56d",
+  "initial_generator_sha256": "e9a1501980aaeca2c73f2995e91bd199bbb2cd4011cdd46fb7737712b86fe0f3"
+}

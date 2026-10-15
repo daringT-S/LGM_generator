@@ -1,0 +1,512 @@
+[
+  {
+    "label": 0,
+    "class_name": "pink primrose",
+    "file": "images/class_000.png"
+  },
+  {
+    "label": 1,
+    "class_name": "hard-leaved pocket orchid",
+    "file": "images/class_001.png"
+  },
+  {
+    "label": 2,
+    "class_name": "canterbury bells",
+    "file": "images/class_002.png"
+  },
+  {
+    "label": 3,
+    "class_name": "sweet pea",
+    "file": "images/class_003.png"
+  },
+  {
+    "label": 4,
+    "class_name": "english marigold",
+    "file": "images/class_004.png"
+  },
+  {
+    "label": 5,
+    "class_name": "tiger lily",
+    "file": "images/class_005.png"
+  },
+  {
+    "label": 6,
+    "class_name": "moon orchid",
+    "file": "images/class_006.png"
+  },
+  {
+    "label": 7,
+    "class_name": "bird of paradise",
+    "file": "images/class_007.png"
+  },
+  {
+    "label": 8,
+    "class_name": "monkshood",
+    "file": "images/class_008.png"
+  },
+  {
+    "label": 9,
+    "class_name": "globe thistle",
+    "file": "images/class_009.png"
+  },
+  {
+    "label": 10,
+    "class_name": "snapdragon",
+    "file": "images/class_010.png"
+  },
+  {
+    "label": 11,
+    "class_name": "colt's foot",
+    "file": "images/class_011.png"
+  },
+  {
+    "label": 12,
+    "class_name": "king protea",
+    "file": "images/class_012.png"
+  },
+  {
+    "label": 13,
+    "class_name": "spear thistle",
+    "file": "images/class_013.png"
+  },
+  {
+    "label": 14,
+    "class_name": "yellow iris",
+    "file": "images/class_014.png"
+  },
+  {
+    "label": 15,
+    "class_name": "globe-flower",
+    "file": "images/class_015.png"
+  },
+  {
+    "label": 16,
+    "class_name": "purple coneflower",
+    "file": "images/class_016.png"
+  },
+  {
+    "label": 17,
+    "class_name": "peruvian lily",
+    "file": "images/class_017.png"
+  },
+  {
+    "label": 18,
+    "class_name": "balloon flower",
+    "file": "images/class_018.png"
+  },
+  {
+    "label": 19,
+    "class_name": "giant white arum lily",
+    "file": "images/class_019.png"
+  },
+  {
+    "label": 20,
+    "class_name": "fire lily",
+    "file": "images/class_020.png"
+  },
+  {
+    "label": 21,
+    "class_name": "pincushion flower",
+    "file": "images/class_021.png"
+  },
+  {
+    "label": 22,
+    "class_name": "fritillary",
+    "file": "images/class_022.png"
+  },
+  {
+    "label": 23,
+    "class_name": "red ginger",
+    "file": "images/class_023.png"
+  },
+  {
+    "label": 24,
+    "class_name": "grape hyacinth",
+    "file": "images/class_024.png"
+  },
+  {
+    "label": 25,
+    "class_name": "corn poppy",
+    "file": "images/class_025.png"
+  },
+  {
+    "label": 26,
+    "class_name": "prince of wales feathers",
+    "file": "images/class_026.png"
+  },
+  {
+    "label": 27,
+    "class_name": "stemless gentian",
+    "file": "images/class_027.png"
+  },
+  {
+    "label": 28,
+    "class_name": "artichoke",
+    "file": "images/class_028.png"
+  },
+  {
+    "label": 29,
+    "class_name": "sweet william",
+    "file": "images/class_029.png"
+  },
+  {
+    "label": 30,
+    "class_name": "carnation",
+    "file": "images/class_030.png"
+  },
+  {
+    "label": 31,
+    "class_name": "garden phlox",
+    "file": "images/class_031.png"
+  },
+  {
+    "label": 32,
+    "class_name": "love in the mist",
+    "file": "images/class_032.png"
+  },
+  {
+    "label": 33,
+    "class_name": "mexican aster",
+    "file": "images/class_033.png"
+  },
+  {
+    "label": 34,
+    "class_name": "alpine sea holly",
+    "file": "images/class_034.png"
+  },
+  {
+    "label": 35,
+    "class_name": "ruby-lipped cattleya",
+    "file": "images/class_035.png"
+  },
+  {
+    "label": 36,
+    "class_name": "cape flower",
+    "file": "images/class_036.png"
+  },
+  {
+    "label": 37,
+    "class_name": "great masterwort",
+    "file": "images/class_037.png"
+  },
+  {
+    "label": 38,
+    "class_name": "siam tulip",
+    "file": "images/class_038.png"
+  },
+  {
+    "label": 39,
+    "class_name": "lenten rose",
+    "file": "images/class_039.png"
+  },
+  {
+    "label": 40,
+    "class_name": "barbeton daisy",
+    "file": "images/class_040.png"
+  },
+  {
+    "label": 41,
+    "class_name": "daffodil",
+    "file": "images/class_041.png"
+  },
+  {
+    "label": 42,
+    "class_name": "sword lily",
+    "file": "images/class_042.png"
+  },
+  {
+    "label": 43,
+    "class_name": "poinsettia",
+    "file": "images/class_043.png"
+  },
+  {
+    "label": 44,
+    "class_name": "bolero deep blue",
+    "file": "images/class_044.png"
+  },
+  {
+    "label": 45,
+    "class_name": "wallflower",
+    "file": "images/class_045.png"
+  },
+  {
+    "label": 46,
+    "class_name": "marigold",
+    "file": "images/class_046.png"
+  },
+  {
+    "label": 47,
+    "class_name": "buttercup",
+    "file": "images/class_047.png"
+  },
+  {
+    "label": 48,
+    "class_name": "oxeye daisy",
+    "file": "images/class_048.png"
+  },
+  {
+    "label": 49,
+    "class_name": "common dandelion",
+    "file": "images/class_049.png"
+  },
+  {
+    "label": 50,
+    "class_name": "petunia",
+    "file": "images/class_050.png"
+  },
+  {
+    "label": 51,
+    "class_name": "wild pansy",
+    "file": "images/class_051.png"
+  },
+  {
+    "label": 52,
+    "class_name": "primula",
+    "file": "images/class_052.png"
+  },
+  {
+    "label": 53,
+    "class_name": "sunflower",
+    "file": "images/class_053.png"
+  },
+  {
+    "label": 54,
+    "class_name": "pelargonium",
+    "file": "images/class_054.png"
+  },
+  {
+    "label": 55,
+    "class_name": "bishop of llandaff",
+    "file": "images/class_055.png"
+  },
+  {
+    "label": 56,
+    "class_name": "gaura",
+    "file": "images/class_056.png"
+  },
+  {
+    "label": 57,
+    "class_name": "geranium",
+    "file": "images/class_057.png"
+  },
+  {
+    "label": 58,
+    "class_name": "orange dahlia",
+    "file": "images/class_058.png"
+  },
+  {
+    "label": 59,
+    "class_name": "pink-yellow dahlia?",
+    "file": "images/class_059.png"
+  },
+  {
+    "label": 60,
+    "class_name": "cautleya spicata",
+    "file": "images/class_060.png"
+  },
+  {
+    "label": 61,
+    "class_name": "japanese anemone",
+    "file": "images/class_061.png"
+  },
+  {
+    "label": 62,
+    "class_name": "black-eyed susan",
+    "file": "images/class_062.png"
+  },
+  {
+    "label": 63,
+    "class_name": "silverbush",
+    "file": "images/class_063.png"
+  },
+  {
+    "label": 64,
+    "class_name": "californian poppy",
+    "file": "images/class_064.png"
+  },
+  {
+    "label": 65,
+    "class_name": "osteospermum",
+    "file": "images/class_065.png"
+  },
+  {
+    "label": 66,
+    "class_name": "spring crocus",
+    "file": "images/class_066.png"
+  },
+  {
+    "label": 67,
+    "class_name": "bearded iris",
+    "file": "images/class_067.png"
+  },
+  {
+    "label": 68,
+    "class_name": "windflower",
+    "file": "images/class_068.png"
+  },
+  {
+    "label": 69,
+    "class_name": "tree poppy",
+    "file": "images/class_069.png"
+  },
+  {
+    "label": 70,
+    "class_name": "gazania",
+    "file": "images/class_070.png"
+  },
+  {
+    "label": 71,
+    "class_name": "azalea",
+    "file": "images/class_071.png"
+  },
+  {
+    "label": 72,
+    "class_name": "water lily",
+    "file": "images/class_072.png"
+  },
+  {
+    "label": 73,
+    "class_name": "rose",
+    "file": "images/class_073.png"
+  },
+  {
+    "label": 74,
+    "class_name": "thorn apple",
+    "file": "images/class_074.png"
+  },
+  {
+    "label": 75,
+    "class_name": "morning glory",
+    "file": "images/class_075.png"
+  },
+  {
+    "label": 76,
+    "class_name": "passion flower",
+    "file": "images/class_076.png"
+  },
+  {
+    "label": 77,
+    "class_name": "lotus",
+    "file": "images/class_077.png"
+  },
+  {
+    "label": 78,
+    "class_name": "toad lily",
+    "file": "images/class_078.png"
+  },
+  {
+    "label": 79,
+    "class_name": "anthurium",
+    "file": "images/class_079.png"
+  },
+  {
+    "label": 80,
+    "class_name": "frangipani",
+    "file": "images/class_080.png"
+  },
+  {
+    "label": 81,
+    "class_name": "clematis",
+    "file": "images/class_081.png"
+  },
+  {
+    "label": 82,
+    "class_name": "hibiscus",
+    "file": "images/class_082.png"
+  },
+  {
+    "label": 83,
+    "class_name": "columbine",
+    "file": "images/class_083.png"
+  },
+  {
+    "label": 84,
+    "class_name": "desert-rose",
+    "file": "images/class_084.png"
+  },
+  {
+    "label": 85,
+    "class_name": "tree mallow",
+    "file": "images/class_085.png"
+  },
+  {
+    "label": 86,
+    "class_name": "magnolia",
+    "file": "images/class_086.png"
+  },
+  {
+    "label": 87,
+    "class_name": "cyclamen",
+    "file": "images/class_087.png"
+  },
+  {
+    "label": 88,
+    "class_name": "watercress",
+    "file": "images/class_088.png"
+  },
+  {
+    "label": 89,
+    "class_name": "canna lily",
+    "file": "images/class_089.png"
+  },
+  {
+    "label": 90,
+    "class_name": "hippeastrum",
+    "file": "images/class_090.png"
+  },
+  {
+    "label": 91,
+    "class_name": "bee balm",
+    "file": "images/class_091.png"
+  },
+  {
+    "label": 92,
+    "class_name": "ball moss",
+    "file": "images/class_092.png"
+  },
+  {
+    "label": 93,
+    "class_name": "foxglove",
+    "file": "images/class_093.png"
+  },
+  {
+    "label": 94,
+    "class_name": "bougainvillea",
+    "file": "images/class_094.png"
+  },
+  {
+    "label": 95,
+    "class_name": "camellia",
+    "file": "images/class_095.png"
+  },
+  {
+    "label": 96,
+    "class_name": "mallow",
+    "file": "images/class_096.png"
+  },
+  {
+    "label": 97,
+    "class_name": "mexican petunia",
+    "file": "images/class_097.png"
+  },
+  {
+    "label": 98,
+    "class_name": "bromelia",
+    "file": "images/class_098.png"
+  },
+  {
+    "label": 99,
+    "class_name": "blanket flower",
+    "file": "images/class_099.png"
+  },
+  {
+    "label": 100,
+    "class_name": "trumpet creeper",
+    "file": "images/class_100.png"
+  },
+  {
+    "label": 101,
+    "class_name": "blackberry lily",
+    "file": "images/class_101.png"
+  }
+]

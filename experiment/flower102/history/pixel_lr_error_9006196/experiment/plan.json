@@ -1,0 +1,35 @@
+{
+  "experiment_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-5000-0RwHhugA",
+  "reuse_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv",
+  "source_commit": "33d004b8c16d9ab8e39aec780f9edad767f6f033",
+  "run_name": "flowers102_pixel_adam_it5000_ipc1",
+  "distillation": {
+    "dataset": "flowers102", "model": "dinov2_vitb", "distill_mode": "pixel",
+    "distill_opt": "adam", "iterations": 5000, "ipc": 1, "lr": 0.002,
+    "num_workers": 2, "augs_per_batch": 1, "checkpoint_it": 100, "image_log_it": 500,
+    "syn_res": 256, "real_res": 256, "crop_res": 224,
+    "init_mode": "noise", "aug_mode": "standard", "decorrelate_color": true,
+    "train_crop_mode": "random"
+  },
+  "evaluation": {
+    "dataset": "flowers102", "model": "dinov2_vitb", "eval_model": "dinov2_vitb",
+    "num_eval": 3, "eval_epochs": 1000, "eval_it": -1, "patience": 5,
+    "checkpoint_it": 100, "num_workers": 2, "real_batch_size": 100,
+    "real_res": 256, "crop_res": 224, "train_crop_mode": "random"
+  },
+  "evaluation_seeds": [3407, 3408, 3409],
+  "distillation_seed": 3407,
+  "std_ddof": 0,
+  "checkpoint_snapshot_interval": 500,
+  "resources": {
+    "group": "tga-lab_otm", "resource": "gpu_1=1", "priority": 0,
+    "distill_h_rt": "02:00:00", "eval_h_rt": "01:00:00", "wandb_mode": "offline"
+  },
+  "estimates": {
+    "distill_runtime_minutes": [20, 60], "eval_runtime_minutes": [15, 45],
+    "peak_allocated_gpu_gib_reference": 15.806035995483398,
+    "expected_distill_gpu_gib": [16, 24], "expected_eval_gpu_gib": [4, 16],
+    "distill_max_points": 0.32, "eval_max_points": 0.16,
+    "basis": "9005977: 4 steps, experiment 24.6524 s, loop 17.88 s, step0 17.11 s, peak 16971593216 bytes. Long-run and evaluation times are estimates, not measurements."
+  }
+}

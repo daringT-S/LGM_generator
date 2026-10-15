@@ -1,0 +1,86 @@
+{
+  "experiment_dir": "/gs/bs/tga-lab_otm/us07824-lgm-generator-smoke-j4SzPSSj",
+  "reuse_dir": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv",
+  "source_commit": "d0dbe18683ea2f0bccda7807ca9f61c73908bced",
+  "distillation": {
+    "dataset": "flowers102",
+    "model": "dinov2_vitb",
+    "distill_mode": "generator_pixel",
+    "distill_opt": "adam",
+    "iterations": 3,
+    "ipc": 1,
+    "lr": 0.002,
+    "generator_latent_dim": 128,
+    "num_workers": 2,
+    "augs_per_batch": 1,
+    "syn_res": 256,
+    "real_res": 256,
+    "crop_res": 224,
+    "init_mode": "noise",
+    "aug_mode": "standard",
+    "decorrelate_color": true,
+    "train_crop_mode": "random",
+    "checkpoint_it": 1,
+    "image_log_it": 3,
+    "data_root": "/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv/data",
+    "job_tag": "/gs/bs/tga-lab_otm/us07824-lgm-generator-smoke-j4SzPSSj/distillation",
+    "run_name": "flowers102_generator_pixel_adam_it3_ipc1",
+    "skip_if_exists": false
+  },
+  "seed": 3407,
+  "resources": {
+    "group": "tga-lab_otm",
+    "resource": "gpu_1=1",
+    "gpu": "H100 x 1",
+    "priority": 0,
+    "h_rt": "00:15:00",
+    "wandb": "offline",
+    "jobs": 1
+  },
+  "estimates": {
+    "seconds": [
+      60,
+      300
+    ],
+    "gpu_gib": [
+      16,
+      24
+    ],
+    "points_if_at_most_300s": 0.0166,
+    "points_if_900s": 0.04
+  },
+  "unchanged_core_sha256": {
+    "synsets/pixels.py": "2e3f625264a4f8b9948cbabed284a3e6b5e52963793971f467d00ede16a716ec",
+    "synsets/pyramid.py": "2529d34a231c9cc91696c92060e96c42d67493f20cf0137cedb6ad6f48eb82ef",
+    "distillation/linear_gm.py": "bbc062c638c6882e15d1b49f9ee861dcfc216a9e6ff64a640e3671eb8baee69b",
+    "distillation/distill.py": "3b9c801be61c6ecb1c40d481b5109a73c9e8c6a3b6539e21f3686190ae668e89",
+    "distillation/eval.py": "71a178b0e47edf3350faaaf8a596bda13b29dbb71ed9dec1d1729d3b7b22cbfc",
+    "config/eval_config.py": "219031ff80c41580d7e96670e48dbd642988cf2ab90b775f3c5409df0f70d34b"
+  },
+  "cli_args": [
+    "--dataset=flowers102",
+    "--model=dinov2_vitb",
+    "--distill_mode=generator_pixel",
+    "--distill_opt=adam",
+    "--iterations=3",
+    "--ipc=1",
+    "--lr=0.002",
+    "--generator_latent_dim=128",
+    "--num_workers=2",
+    "--augs_per_batch=1",
+    "--syn_res=256",
+    "--real_res=256",
+    "--crop_res=224",
+    "--init_mode=noise",
+    "--aug_mode=standard",
+    "--decorrelate_color=True",
+    "--train_crop_mode=random",
+    "--checkpoint_it=1",
+    "--image_log_it=3",
+    "--data_root=/gs/bs/tga-lab_otm/us07824-lgm-pixel-rEKz7ETv/data",
+    "--job_tag=/gs/bs/tga-lab_otm/us07824-lgm-generator-smoke-j4SzPSSj/distillation",
+    "--run_name=flowers102_generator_pixel_adam_it3_ipc1",
+    "--skip_if_exists=False"
+  ],
+  "status": "awaiting_user_approval"
+}

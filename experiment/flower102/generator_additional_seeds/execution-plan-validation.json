@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baseline_3407_initial_generator_weights_replayed_on_cpu": true,
+  "cpu_restore_does_not_replace_gpu_initialization_metadata": true,
+  "gpu_metadata_branch_control_test": "passed_with_mocked_cuda_no_gpu",
+  "submission_without_approval_blocked_before_subprocess": true,
+  "checked_job_scripts": [
+    "seed_42/distill/distill_job.sh",
+    "seed_42/eval/eval_job.sh",
+    "seed_123/distill/distill_job.sh",
+    "seed_123/eval/eval_job.sh",
+    "seed_2026/distill/distill_job.sh",
+    "seed_2026/eval/eval_job.sh"
+  ],
+  "max_total_points": 1.44,
+  "max_concurrent_jobs": 1,
+  "gpu_jobs_submitted": 0
+}
